@@ -3,7 +3,7 @@
 This library has been tested on ROS Humble
 
 ## Installation
-First we install MoveIt 2 and moveitpy. We need to build from source since it doesn't come with Humble prebuilt. This can take about 30 minutes.
+First we install MoveIt 2 and moveitpy. We need to build from source. This can take about 30 minutes.
 ```bash
 sudo apt remove ros-$ROS_DISTRO-moveit*
 mkdir -p ~/moveit2/ws_moveit2/src
