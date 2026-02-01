@@ -32,6 +32,7 @@ source ~/moveit2/ws_moveit2_stretch3/install/setup.bash
 ## Launch MoveIt 2 in Rviz
 ```bash
 stretch_free_robot_process.py
+stretch_robot_home.py
 ros2 launch stretch_moveit2 movegroup_moveit2_stretch3.launch.py
 ```
 
