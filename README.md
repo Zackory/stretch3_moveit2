@@ -23,6 +23,7 @@ mkdir -p ~/moveit2/ws_moveit2_stretch3/src
 cd ~/moveit2/ws_moveit2_stretch3/src
 git clone https://github.com/Zackory/stretch3_moveit2.git
 rosdep install -r --from-paths . --ignore-src --rosdistro $ROS_DISTRO -y
+cd ~/moveit2/ws_moveit2_stretch3/
 colcon build --packages-select stretch_moveit2 stretch_simple_controller_manager
 echo 'source ~/moveit2/ws_moveit2_stretch3/install/setup.bash' >> ~/.bashrc
 source ~/moveit2/ws_moveit2_stretch3/install/setup.bash
